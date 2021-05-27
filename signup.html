@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fossil Watch Store - Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="E:\web project\fontawesome-free-5.15.3-web\css\all.css">
+    <link rel="icon" href="images/logo.jpg" type="image/icon type">
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <div class="wrapper">
+            <nav>
+                <div class="logo">
+                    Fossil
+                </div>
+                <ul class="nav-items">
+                    <li>
+                         <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="signin.html">Sign in</a>
+                    </li>
+                </ul>                
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="heading">
+
+        <h4>Contact Us</h4>
+        <p><img style="width: 40px; height: 30px;" src="images/Gmail Icon.svg" alt="gmail"> <span style="margin-left: 20px; font-size: 25px;">customercare.in@fossil.com</span></p>
+
+        <p><img style="width: 40px; height: 40px;" src="images/Telephone.svg" alt="telephone"> <span style="margin-left: 20px; font-size: 25px;">0008009190951</span></p>
+        
+    </div>
+
+
+    <div class="signup">
+        <form name="form1">
+            <table>
+                <tr><h1>Sign up</h1></tr>
+
+                <tr><h2>Username <span class="required">*</span></h2></tr>
+                <tr><input type="text" placeholder="Enter Username" name="sname" required></tr>
+
+                <tr><h2>Email Address <span class="required">*</span></h2></tr>
+                <tr><input type="text" placeholder="Enter Email Address" required></tr>
+
+                <tr><h2>Phone Number <span class="required">*</span></h2></tr>
+                <tr><input type="text" placeholder="Enter Phone Number" required></tr>
+
+                <tr><h2>Password <span class="required">*</span></h2></tr>
+                <tr><input type="text" placeholder="Enter Password" required></tr>
+                
+                <tr><h2>Password again <span class="required">*</span></h2></tr>
+                <tr><input type="text" placeholder="Enter Password again" required></tr>
+
+                <tr><h3><input type="checkbox" required> I accept Terms and Conditions</h3></tr>
+
+                <tr><button class="signup-btn" onclick="validate()">Sign up</button></tr>
+                
+                <tr><pre>Already have an account? <a href="signin.html">Sign in</a></pre></tr>
+
+            </table>
+        </form>
+    </div>
+    
+    <script>
+
+        function validate()
+        {
+           if (document.forms["form1"]["sname"].value=="")
+           {
+               alert("Please fill all the fields.");
+           }
+        }
+
+    </script>
+
+
+</body>
+</html>
