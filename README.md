@@ -12,3 +12,4 @@ This website includes all the features that the present E-Commerce website like 
 Main Function in this website is cart page where if we click on the add to cart button directly enters into the cart page and increase the cost and also updates the total cost.
 Also implemented the Backend totally.
 In this we can view the database and we reuse to sign in.
+To understand this files someone needs to know the Nodejs Express and more in the Node.JS.
